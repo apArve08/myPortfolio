@@ -3,62 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
     <header>
-        <h1>Your Name</h1>
-        <p>Software Application Engineer | Web & AI Enthusiast</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#activities">Activities</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
+    <section id="about" class="section">
+        <h1>About Me</h1>
+        <p>Hello! I'm [Your Name], a passionate [Your Profession] with experience in [Your Field]. I love creating innovative solutions and continuously learning new technologies.</p>
+    </section>
+
+    <section id="skills" class="section">
+        <h1>Skills</h1>
         <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#profile">profile</a></li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Python, Java</li>
+            <li>UI/UX Design</li>
         </ul>
-    </nav>
-
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Hello! I'm a software engineer with experience in SQL, Web Development, and AI. Passionate about building smart applications and solving technical challenges.</p>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-
-        <div class="project">
-            <h3>SQL Database Management System</h3>
-            <p>A CRUD web application that manages product defects in a smart factory.</p>
-            <a href="https://github.com/yourusername/sql-project" target="_blank">View on GitHub</a>
+    <section id="experience" class="section">
+        <h1>Experience</h1>
+        <div class="experience-item">
+            <h2>Software Developer at XYZ Company</h2>
+            <p>June 2021 - Present</p>
+            <ul>
+                <li>Developed and maintained web applications using React and Node.js.</li>
+                <li>Collaborated with cross-functional teams to deliver high-quality software.</li>
+            </ul>
         </div>
-
-        <div class="project">
-            <h3>AI-Based Defect Detection</h3>
-            <p>Built an AI model to classify manufacturing defects using Python and TensorFlow.</p>
-            <a href="https://github.com/yourusername/ai-defect-detection" target="_blank">View on GitHub</a>
+        <div class="experience-item">
+            <h2>Intern at ABC Corp</h2>
+            <p>May 2020 - August 2020</p>
+            <ul>
+                <li>Assisted in the development of mobile applications using Flutter.</li>
+                <li>Participated in code reviews and debugging sessions.</li>
+            </ul>
         </div>
-
-        <div class="project">
-            <h3>Smart Factory Dashboard</h3>
-            <p>A real-time dashboard to monitor manufacturing performance, built with React & SQL.</p>
-            <a href="https://github.com/yourusername/factory-dashboard" target="_blank">View on GitHub</a>
-        </div>
-
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+    <section id="activities" class="section">
+        <h1>Activities</h1>
+        <p>Outside of work, I enjoy participating in hackathons, contributing to open-source projects, and mentoring aspiring developers.</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name. All Rights Reserved.</p>
+        <p>&copy; 2023 [Your Name]. All rights reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
